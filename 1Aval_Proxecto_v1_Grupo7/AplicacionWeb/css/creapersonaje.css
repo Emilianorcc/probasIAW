@@ -1,0 +1,60 @@
+body, html, div, img
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.formhabilidad{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.formnombre{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    align-content: center;
+}
+form.formstats{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+form.formstats fieldset{
+    display: grid;
+    margin: auto;
+    align-content: center;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+form.formstats fieldset label{
+    display: block;
+}
+
+.formpvpm{
+    display: grid;
+    justify-content: center;
+}
+
+.formcordura{
+    display: grid;
+    justify-content: center;
+}
+legend{
+    text-align: center;
+}
+
+h1{text-align: center;}
+
+footer{position: absolute; bottom: 0;}
+
+body
+{
+    background-image: url(img/fondoIndex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

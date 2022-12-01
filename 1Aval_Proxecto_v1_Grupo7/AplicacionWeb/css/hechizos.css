@@ -1,0 +1,27 @@
+body
+{ 
+    background-image: url(img/fondoD.png);
+    background-position:column;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    
+}
+body, html, div, img
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.descripcion{margin-left: 20%;
+    margin-right: 20%;}
+
+.hechizo{text-align: center;
+    font-size: large;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: space-around;
+margin-top: 5%;   }
+footer{position: absolute; bottom: 0;}

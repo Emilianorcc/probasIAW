@@ -1,0 +1,62 @@
+body, html, div, img
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body
+{
+    background-image: url(img/fondoIndex.png);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div.login legend{text-align: center;}
+div.login fieldset{text-align: center; margin:auto; width: 35vw;}
+
+div.register legend{text-align: center;}
+div.register fieldset{text-align: center; margin:auto; width: 35vw;}
+
+/*.login
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);    
+}*/
+
+/*.register
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);    
+}*/
+
+
+footer
+{
+    position: absolute !important;
+}
+
+.decoracion
+{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+.decoracion img
+{
+    width: 30vw;
+}
+.decoracion #r
+{
+    transform: scaleX(-1);
+}
